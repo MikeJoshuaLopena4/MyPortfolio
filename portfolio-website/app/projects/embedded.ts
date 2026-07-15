@@ -53,33 +53,7 @@ export const embedded = [
     module: "embedded",
     featured: false
   },
-  {
-    title: "LoRa Mesh Sensor Network",
-    description: "A long-range low-power mesh network for environmental sensors with gateway integration to cloud dashboards.",
-    technologies: ["LoRa", "Arduino", "MQTT", "Gateways"],
-    category: "Embedded Systems",
-    image: "/api/placeholder/600/400",
-    module: "embedded",
-    featured: false
-  },
-  {
-    title: "Edge AI Camera",
-    description: "An edge device running lightweight ML models to detect objects and events, optimized for low-latency inference.",
-    technologies: ["ARM", "TensorFlow Lite", "OpenCV", "Python"],
-    category: "Embedded Systems",
-    image: "/api/placeholder/600/400",
-    module: "embedded",
-    featured: false
-  },
-  {
-    title: "Smart Energy Meter",
-    description: "A microcontroller-based energy meter with real-time power monitoring and cloud reporting for households.",
-    technologies: ["ESP32", "CT Sensors", "MQTT", "MicroPython"],
-    category: "Embedded Systems",
-    image: "/api/placeholder/600/400",
-    module: "embedded",
-    featured: false
-  },
+ 
   {
     title: "Autonomous Delivery Bot (Prototype)",
     description: "Prototype robot using sensors and basic SLAM for short-range indoor delivery tasks and path planning.",
