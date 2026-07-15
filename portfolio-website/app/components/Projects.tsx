@@ -8,7 +8,7 @@ const modules = [
   { id: "embedded" as const, title: "Embedded Systems" },
   { id: "full-stack" as const, title: "Full Stack" },
   { id: "graphic-design" as const, title: "Graphic Design" },
-  { id: "home-lab" as const, title: "Home Lab" }
+  { id: "homelab" as const, title: "Home Lab" }
 ];
 
 // Centralized full-stack design configuration for all modules
@@ -36,12 +36,12 @@ const moduleIcons = {
   embedded: "⚙️",
   'full-stack': "💻",
   'graphic-design': "🎨",
-  'home-lab': "🖥️"
+  'homelab': "🖥️"
 };
 
 export default function Projects() {
   const [isVisible, setIsVisible] = useState(false);
-  const [activeModule, setActiveModule] = useState<'embedded' | 'full-stack' | 'graphic-design' | 'home-lab'>('embedded');
+  const [activeModule, setActiveModule] = useState<'embedded' | 'full-stack' | 'graphic-design' | 'homelab'>('embedded');
 
   useEffect(() => {
     setIsVisible(true);
